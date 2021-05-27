@@ -5,6 +5,7 @@ export default function Home(props) {
       {props.posts.map((post) =>
         <p>{ post.title }</p>
       )}
+      <Link href="/">リンク</Link>
     </div>
   )
 }
